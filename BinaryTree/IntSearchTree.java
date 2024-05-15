@@ -109,10 +109,7 @@ public class IntSearchTree {
         }
     }
 
-    // prints the tree contents, one per line, following an
-    // inorder traversal and using indentation to indicate
-    // node depth; prints right to left so that it looks
-    // correct when the output is rotated.
+    // prints tree in a tree form
     public void printSideways() {
         printSideways(overallRoot, 0);
     }
